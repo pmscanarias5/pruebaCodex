@@ -23,7 +23,7 @@ export default function MapView() {
       source: new TileWMS({
         url: WMS_URL,
         params: {
-          LAYERS: 'GN.InundacionT10',
+          LAYERS: 'NZ.Flood.FluvialT10',
           TILED: true
         },
         serverType: 'geoserver',
